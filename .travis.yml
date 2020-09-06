@@ -28,6 +28,7 @@ deploy:
     provider: heroku
     on:
     branch: master
+    app: docker-react-houshmand
     api_key:
         secure: "$HEROKU_API_Key"
 
