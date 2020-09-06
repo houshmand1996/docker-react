@@ -24,13 +24,13 @@ script:
 
 #  deploy to heroku
 
-deploy:
-    provider: heroku
-    on:
-    branch: master
-    app: docker-react-houshmand
-    api_key:
-        secure: "4d7b6603-4da6-4121-a614-6c40f76d6dee"
+# deploy:
+#     provider: heroku
+#     on:
+#     branch: master
+#     app: docker-react-houshmand
+#     api_key:
+#         secure: "4d7b6603-4da6-4121-a614-6c40f76d6dee"
 
 
 
